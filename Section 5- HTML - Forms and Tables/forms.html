@@ -11,19 +11,36 @@
 <body>
     <h1>Forms</h1>
     <form action="/tacos">
-        <div>
+        <p>
             <label for="username">Enter your username:</label>
             <input id="username" type="text" placeholder="username">
-        </div>
-        <div>
+        </p>
+        <p>
             <label for="password">Enter your password:</label>
             <input id="password" type="password" placeholder="password">
-        </div>
-        <input type="color">
-        <input type="number" placeholder="enter a number">
-        <input type="time">
-        <input type="radio">
+        </p>
+        <p>
+            <input type="color">
+            <input type="number" placeholder="enter a number">
+        </p>
+
+
     </form>
+    <h2>Hijacking Searches</h2>
+    <h3>Google</h3>
+    <p>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    </p>
+    <h3>Corridor</h3>
+    <p>
+    <form action="https://www.corridordigital.com/search">
+        <input type="text" name="search">
+        <button>Search Corridor Digital</button>
+    </form>
+    </p>
 
 </body>
 
