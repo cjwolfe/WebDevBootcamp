@@ -1,6 +1,7 @@
 /* Make all LI's blue */
 li {
     color: blue;
+    text-align: center;
 }
 
 /* Make everything with the class of 'done' grey*/
@@ -12,4 +13,5 @@ li {
 #clear {
     background-color: red;
     color: white;
+    cursor: grab;
 }

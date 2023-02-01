@@ -6,5 +6,5 @@ header a {
 #dislikes a {
     font-weight: bold;
     color: red;
-
+    font-family: 'Courier New', Courier, monospace;
 }
