@@ -1,0 +1,10 @@
+CSS Transitions
+1. Basically just reference the docs
+Timed
+
+CSS Transformations
+Scale, Rotate, Skew, Translate etc.
+Same idea as photoshop
+Use docs to double check how to do all the changes
+Transformations can go by specific points on the origin
+Use MDN
