@@ -1,0 +1,58 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+    position: sticky;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(0, 85, 170);
+}
+
+.turquoise-bubble {
+    background-color: turquoise;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 25rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: auto;
+    padding-block: 2rem;
+    width: max(95%, 70rem);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    width: min(95%, 30rem);
+
+    margin: auto;
+
+
+}
+
+div {
+    display: inline-block;
+    background-size: cover;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+
+}
+
+#photo {
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+    border: 1px solid black;
+}
