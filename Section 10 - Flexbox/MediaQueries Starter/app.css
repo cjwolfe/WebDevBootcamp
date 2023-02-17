@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -7,6 +8,7 @@ h1 {
     font-size: 6em;
     text-align: center;
     grid-column-start: 2;
+    margin: 0;
 }
 
 nav {
@@ -20,7 +22,7 @@ nav {
 
 ul,
 li {
-    display: inline;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
