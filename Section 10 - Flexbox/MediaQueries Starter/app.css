@@ -3,12 +3,19 @@ body {
 }
 
 h1 {
+    background-color: rgb(255, 255, 178);
     font-size: 6em;
     text-align: center;
+    grid-column-start: 2;
 }
 
 nav {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     font-size: 1.5em;
+
 }
 
 ul,
@@ -16,4 +23,20 @@ li {
     display: inline;
     margin: 0;
     padding: 0;
+}
+
+@media (max-width:40rem) {
+    h1 {
+        color: purple;
+    }
+
+    body {
+        background-color: bisque;
+    }
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vw;
 }
