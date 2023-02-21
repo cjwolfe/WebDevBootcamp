@@ -1,0 +1,18 @@
+.pricing-table {
+    display: flex;
+    margin: 3rem;
+    padding: 5rem;
+    background-color: white;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing-plan {
+    flex-grow: 1;
+
+}
+
+body {
+    background-color: rgb(64, 160, 224);
+}
