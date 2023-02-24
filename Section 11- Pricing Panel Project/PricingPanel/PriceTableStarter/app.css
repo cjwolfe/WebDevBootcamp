@@ -164,7 +164,7 @@ body {
     border-radius: 10px;
     padding: 15px 25px;
     width: 100%;
-    max-width: 960px;
+    max-width: 330px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -214,9 +214,13 @@ body {
     transition: background-color 200ms ease-in-out;
 }
 
+.pricing-button:hover,
+.pricing-button:focus {
+    background-color: #9dd1ff;
+}
 
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
     .panel {
         flex-direction: row;
     }
@@ -229,5 +233,9 @@ body {
 
     .pricing-plan:last-child {
         border-right: none;
+    }
+
+    body {
+        background-color: red;
     }
 }
