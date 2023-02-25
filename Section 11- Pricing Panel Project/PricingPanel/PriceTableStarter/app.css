@@ -217,6 +217,7 @@ body {
 .pricing-button:hover,
 .pricing-button:focus {
     background-color: #9dd1ff;
+    transform: rotate(90);
 }
 
 
