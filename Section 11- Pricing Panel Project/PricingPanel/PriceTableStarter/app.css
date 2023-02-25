@@ -201,6 +201,7 @@ body {
     display: block;
     font-size: 3rem;
     font-weight: 700;
+    margin: 15px;
 }
 
 .pricing-button {
@@ -210,14 +211,15 @@ body {
     display: inline-block;
     padding: 15px 35px;
     text-decoration: none;
-    margin: 25px 0;
+    margin: 25px 15px;
     transition: background-color 200ms ease-in-out;
+
 }
 
 .pricing-button:hover,
 .pricing-button:focus {
     background-color: #9dd1ff;
-    transform: rotate(90);
+    transform: rotate(180);
 }
 
 
@@ -237,6 +239,6 @@ body {
     }
 
     body {
-        background-color: red;
+        background-color: purple;
     }
 }
