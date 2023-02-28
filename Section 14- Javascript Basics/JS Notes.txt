@@ -20,6 +20,13 @@ Not a number (technically a number itself in JS) - Represents non-numerical thin
 0/0 = NaN
 1+NaN= NaN
 
+Variables
 
+Variables are not automatically updated in JS
+// Define a variable called myLuckyNumber and set it equal to 37
+let myLuckyNumber = 37;
+
++= is a change to a variable 
+score += 5 will add 5 to the score
 
 
