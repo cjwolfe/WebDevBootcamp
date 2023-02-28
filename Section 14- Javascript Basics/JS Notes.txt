@@ -1,0 +1,25 @@
+Numbers
+Javascript has only one number type (no ints, floats, etc)
+Basic Math
++, -, /, *, %
+
+** Exponentiateion - Raise to some power
+2^4 is 2**4
+
+% Modulo
+9 % 2 = 1
+Common for determining if a number is even or odd
+
+PEMDAS
+
+Comments
+//
+
+NaN
+Not a number (technically a number itself in JS) - Represents non-numerical things
+0/0 = NaN
+1+NaN= NaN
+
+
+
+
