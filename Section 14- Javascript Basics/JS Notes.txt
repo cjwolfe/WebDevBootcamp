@@ -29,4 +29,11 @@ let myLuckyNumber = 37;
 += is a change to a variable 
 score += 5 will add 5 to the score
 
+const - same as let, but cannot be changed
+
+var - old way to declare variables, and now that const and let exist, not necessary to use it
+
+
+
+
 
