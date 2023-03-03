@@ -33,7 +33,15 @@ const - same as let, but cannot be changed
 
 var - old way to declare variables, and now that const and let exist, not necessary to use it
 
+Strings
+Don't Mix '' and "" unless you need to express one or the other.
+camelCaseForTheWin
 
+let bestColor = "purple";
+let quote = 'You had me at "hello"'
 
+Strings are indexed
+
+.length method gives you the length of a string in human (not computer) terms
 
 
