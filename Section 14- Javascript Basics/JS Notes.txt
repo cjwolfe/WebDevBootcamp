@@ -44,4 +44,5 @@ Strings are indexed
 
 .length method gives you the length of a string in human (not computer) terms
 
+Just to save my progress, I know about methods. Upload for today.
 
