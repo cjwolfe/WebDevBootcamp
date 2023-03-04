@@ -44,5 +44,16 @@ Strings are indexed
 
 .length method gives you the length of a string in human (not computer) terms
 
-Just to save my progress, I know about methods. Upload for today.
+methods
+
+thing.method() will do an action of the method
+
+let msg = "hello world       ";
+// Output = "hello world      "
+let bigMsg = msg.trim().toUpperCase();
+// Output = "HELLO WORLD"
+
+(you can chain together multiple methods in this way)
+
+
 
