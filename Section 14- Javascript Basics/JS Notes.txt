@@ -55,5 +55,6 @@ let bigMsg = msg.trim().toUpperCase();
 
 (you can chain together multiple methods in this way)
 
+Finished learning about inline string methods and literals and such. Null and Undefined as well. Moving on to section 16!
 
 
