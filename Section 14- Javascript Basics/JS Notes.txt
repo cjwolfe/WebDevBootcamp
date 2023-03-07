@@ -57,5 +57,6 @@ let bigMsg = msg.trim().toUpperCase();
 
 Finished learning about inline string methods and literals and such. Null and Undefined as well. Moving on to section 16!
 Javascript decisionmaking today - logic and boolean stuff!
+If and If-Else statements today!
 
 
