@@ -59,4 +59,5 @@ Finished learning about inline string methods and literals and such. Null and Un
 Javascript decisionmaking today - logic and boolean stuff!
 If and If-Else statements today!
 
+Something.
 
