@@ -1,11 +1,5 @@
 console.log("Hello World");
 
-
-
-
-
-
-
 // let phrase = 'slow';
 
 // function getColor(phrase) {
@@ -41,6 +35,9 @@ console.log("Hello World");
 //     //If user provides input, it is truthy
 // } else { alert("Falsy") }
 
-
+//Let's make an array!
+const daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+// daysOfTheWeek.push("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
+console.log(daysOfTheWeek[5]);
 
 
