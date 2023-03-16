@@ -36,8 +36,12 @@ console.log("Hello World");
 // } else { alert("Falsy") }
 
 //Let's make an array!
-const daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-// daysOfTheWeek.push("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
-console.log(daysOfTheWeek[5]);
+// const daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+// // daysOfTheWeek.push("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
+// console.log(daysOfTheWeek[5]);
 
+let beatles = ["John", "Paul", "George"];
+console.log(beatles[beatles.length - 1]);
+beatles.push("Ringo");
+console.log(beatles[beatles.length - 1]);
 
