@@ -45,3 +45,11 @@ console.log(beatles[beatles.length - 1]);
 beatles.push("Ringo");
 console.log(beatles[beatles.length - 1]);
 
+const nails = ["blue", "black", "grey", "french", "purple"];
+console.log(nails[0]);
+nails.unshift("green");
+console.log(nails[0]);
+console.log(nails[1]);
+console.log(nails[2]);
+console.log(nails[3]);
+console.log(nails[4]);
