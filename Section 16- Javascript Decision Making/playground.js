@@ -53,3 +53,6 @@ console.log(nails[1]);
 console.log(nails[2]);
 console.log(nails[3]);
 console.log(nails[4]);
+console.log("day2");
+let nailColor = nails.shift();
+console.log(nailColor);
