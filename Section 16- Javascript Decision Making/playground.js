@@ -40,24 +40,43 @@ console.log("Hello World");
 // // daysOfTheWeek.push("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
 // console.log(daysOfTheWeek[5]);
 
-let beatles = ["John", "Paul", "George"];
-console.log(beatles[beatles.length - 1]);
-beatles.push("Ringo");
-console.log(beatles[beatles.length - 1]);
+// let beatles = ["John", "Paul", "George"];
+// console.log(beatles[beatles.length - 1]);
+// beatles.push("Ringo");
+// console.log(beatles[beatles.length - 1]);
 
-const nails = ["blue", "black", "grey", "french", "purple"];
-console.log(nails[0]);
-nails.unshift("green");
-console.log(nails[0]);
-console.log(nails[1]);
-console.log(nails[2]);
-console.log(nails[3]);
-console.log(nails[4]);
-console.log("day2");
-let nailColor = nails.shift();
-console.log(nailColor);
+// const nails = ["blue", "black", "grey", "french", "purple"];
+// console.log(nails[0]);
+// nails.unshift("green");
+// console.log(nails[0]);
+// console.log(nails[1]);
+// console.log(nails[2]);
+// console.log(nails[3]);
+// console.log(nails[4]);
+// console.log("day2");
+// let nailColor = nails.shift();
+// console.log(nailColor);
 
-nails.reverse()
-console.log(nailColor)
-console.log(nails[0])
+// nails.reverse()
+// console.log(nailColor)
+// console.log(nails[0])
+
+const ticTac = [
+    [null, null, null],
+    [null, null, null],
+    [null, null, null]
+];
+
+ticTac.splice([0][0], 1, "x");
+
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', null, 'Deniz'],
+    ['Rin', 'Sakura', 'Francisco']
+];
+
+
+airplaneSeats[3][1] = "Hugo";
 
