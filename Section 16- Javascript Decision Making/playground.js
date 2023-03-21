@@ -80,3 +80,4 @@ const airplaneSeats = [
 
 airplaneSeats[3][1] = "Hugo";
 
+// Moving on to Section 18: Object Literals
