@@ -82,7 +82,13 @@ airplaneSeats[3][1] = "Hugo";
 
 // Moving on to Section 18: Object Literals
 // Learning about creating Objects
-
+const person = {
+    firstName: "Mick",
+    lastName: "Jagger",
+    age: 79,
+    songs: ["Paint it black", "Satisfaction", "Jumpin jack flash", "Sympathy for the devil"],
+};
+console.log(person.firstName);
 
 
 
