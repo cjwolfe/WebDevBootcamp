@@ -1,8 +1,6 @@
 // loops!
-let input = prompt("enter something");
-console.log(input)
-for (let i = 0; i < array.length; i++) {
-    const input = array[i];
-
+//Basic bitch for loop
+for (let i = 1; i <= 69; i++) {
+    console.log(i);
 }
-console.log(input)
+
