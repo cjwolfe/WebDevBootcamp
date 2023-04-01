@@ -29,12 +29,22 @@
 // for (var i = 0; i < people.length; i++) {
 //     console.log(people[i].toUpperCase())
 // }
-for (let i = 1; i <= 10; i++) {
-    console.log(`i is equal t:${i}`)
-    for (let j = 0; j <= 2; j++) { console.log(`    j is ${j}`) }
-}
-let example = 1;
-while (example <= 10) {
-    console.log(`Our While loop is at ${example}`);
-    example++;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`i is equal t:${i}`)
+//     for (let j = 0; j <= 2; j++) { console.log(`    j is ${j}`) }
+// }
+// let example = 1;
+// while (example <= 10) {
+//     console.log(`Our While loop is at ${example}`);
+//     example++;
+// }
+const dualArray = [
+    ["first", "second", "third"],
+    ["fourth", "fifth", "sixth"],
+    ["seventh", "eighth", "ninth"]
+]
+
+for (let i = 0; i < dualArray.length; i++) {
+    const secondArray = dualArray;
+    for (let j = 0; j < secondArray.length; j++) { console.log(j) }
 }
