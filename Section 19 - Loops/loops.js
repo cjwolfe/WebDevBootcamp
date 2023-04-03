@@ -38,13 +38,27 @@
 //     console.log(`Our While loop is at ${example}`);
 //     example++;
 // }
-const dualArray = [
-    ["first", "second", "third"],
-    ["fourth", "fifth", "sixth"],
-    ["seventh", "eighth", "ninth"]
-]
+// const dualArray = [
+//     ["first", "second", "third"],
+//     ["fourth", "fifth", "sixth"],
+//     ["seventh", "eighth", "ninth"]
+// ]
+// // Proper, fixed for loop to iterate through the above array
+// for (let i = 0; i < dualArray.length; i++) {
+//     const row = dualArray[i]
+//     for (let j = 0; j < row.length; j++) { console.log(row[j]) }
+// }
 
-for (let i = 0; i < dualArray.length; i++) {
-    const secondArray = dualArray;
-    for (let j = 0; j < secondArray.length; j++) { console.log(j) }
-}
+//For Of Loop for the same array
+// for (const i of dualArray) {
+//     // console.log(i)
+//     for (const j of i) {
+//         console.log(j)
+//     }
+// }
+
+// // Print out the square of each value
+// const numbers = [1,2,3,4,5,6,7,8,9]; //DON'T CHANGE THIS LINE PLEASE!
+
+// // WRITE YOUR LOOP BELOW THIS LINE:
+// for (let i of numbers){console.log(i*i)}
