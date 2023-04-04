@@ -63,20 +63,23 @@
 // // WRITE YOUR LOOP BELOW THIS LINE:
 // for (let i of numbers){console.log(i*i)}
 
-const testScores = {
-    tamera: 92,
-    michael: 5,
-    jaimie: 54,
-    bernadette: 74
-}
-for (let person in testScores) {
-    console.log(`${person} scored ${testScores[person]}`)
-}
-const personage = Object.keys(testScores);
-let total = 0;
-let scores = Object.values(testScores)
-for (let score of Object.values(testScores)) {
-    total += score;
+// const testScores = {
+//     tamera: 92,
+//     michael: 5,
+//     jaimie: 54,
+//     bernadette: 74
+// }
+// for (let person in testScores) {
+//     console.log(`${person} scored ${testScores[person]}`)
+// }
+// const personage = Object.keys(testScores);
+// let total = 0;
+// let scores = Object.values(testScores)
+// for (let score of Object.values(testScores)) {
+//     total += score;
 
-}
-console.log(total / scores.length);
+// }
+// console.log(total / scores.length);
+
+
+
