@@ -1,24 +1,32 @@
-const teudeu = [];
-function list(teudeu) {
-
-    for (let i of teudeu) {
-        return console.log(`${teudeu.indexOf(i)} - ${i}`)
-    }
-}
-const input = prompt("What would you like to do?")
+const teudeu = ["one", "two"];
+let input = prompt("What would you like to do?")
+//not quite there yet
 while (input !== "quit" && input !== "q") {
     if (input === "new") {
         let task = prompt("What task needs completed?")
         teudeu.push(task)
-        teudeu.list(teudeu)
+        for (let i of teudeu) {
+            console.log(`${teudeu.indexOf(i)} - ${i}`)
+        }
     }
     if (input === "list") {
-        teudeu.list(teudeu)
+        for (let i of teudeu) {
+            console.log(`${teudeu.indexOf(i)} - ${i}`)
+        }
+        break
+    }
+    if (input === "delete") {
+        for (let i of teudeu) {
+            console.log(`${teudeu.indexOf(i)} - ${i}`)
+        }
+        let toRemove = prompt("Which would you like to remove?")
+        teudeu = teudeu.slice(toRemove, 1)
     }
 
 
+    input = prompt("What would you like to do?")
 
-    break
+
 }
 console.log("You have quit")
 
