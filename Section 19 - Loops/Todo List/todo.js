@@ -1,6 +1,7 @@
 const teudeu = ["one", "two"];
 let input = prompt("What would you like to do?")
 //not quite there yet
+// making a quick post to say that I am having a travel day thurs april 6th
 while (input !== "quit" && input !== "q") {
     if (input === "new") {
         let task = prompt("What task needs completed?")
