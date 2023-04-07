@@ -14,7 +14,6 @@ while (input !== "quit" && input !== "q") {
         for (let i of teudeu) {
             console.log(`${teudeu.indexOf(i)} - ${i}`)
         }
-        break
     }
     if (input === "delete") {
         for (let i of teudeu) {
@@ -25,7 +24,7 @@ while (input !== "quit" && input !== "q") {
     }
 
 
-    input = prompt("What would you like to do?")
+    // input = prompt("What would you like to do?")
 
 
 }
