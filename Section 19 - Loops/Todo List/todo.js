@@ -1,30 +1,34 @@
-const teudeu = ["one", "two"];
 let input = prompt("What would you like to do?")
+const todos = ["one", "two"];
+
 //not quite there yet
 // making a quick post to say that I am having a travel day thurs april 6th
 while (input !== "quit" && input !== "q") {
-    if (input === "new") {
-        let task = prompt("What task needs completed?")
-        teudeu.push(task)
-        for (let i of teudeu) {
-            console.log(`${teudeu.indexOf(i)} - ${i}`)
-        }
-    }
+
     if (input === "list") {
-        for (let i of teudeu) {
-            console.log(`${teudeu.indexOf(i)} - ${i}`)
+        console.log("************")
+        for (let i = 0; i < todos.length; i++) {
+            console.log(`${i}: ${todos[i]}`);
         }
-    }
-    if (input === "delete") {
-        for (let i of teudeu) {
-            console.log(`${teudeu.indexOf(i)} - ${i}`)
-        }
-        let toRemove = prompt("Which would you like to remove?")
-        teudeu = teudeu.slice(toRemove, 1)
-    }
+        console.log("************")
+    };
+    // if (input === "new") {
+    //     let task = prompt("What task needs completed?")
+    //     todos.push(task)
+    //     for (let i of todos) {
+    //         console.log(`${todos.indexOf(i)} - ${i}`)
+    //     }
+    // }
+    // if (input === "delete") {
+    //     for (let i of todos) {
+    //         console.log(`${todos.indexOf(i)} - ${i}`)
+    //     }
+    //     let toRemove = prompt("Which would you like to remove?")
+    //     todos = todos.slice(toRemove, 1)
+    // }
 
 
-    // input = prompt("What would you like to do?")
+    input = prompt("What would you like to do?");
 
 
 }
