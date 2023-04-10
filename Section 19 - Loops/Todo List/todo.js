@@ -11,10 +11,21 @@ while (input !== "quit" && input !== "q") {
             console.log(`${i}: ${todos[i]}`);
         }
         console.log("************")
-    };
+    } else if (input === "new") {
+        let newTask = prompt("What task needs completed?")
+        todos.push(newTask)
+        console.log(`${newTask} added to list`)
+    }
+    else if (input === "delete") {
+        for (let i = 0; i < todos.length; i++) {
+            console.log(`${i}: ${todos[i]}`);
+        }
+        let index = prompt("Which index would you like to delete?");
+        console.log(`${todos[index]} removed from list`)
+        todos.splice(index, 1);
+    }
     // if (input === "new") {
-    //     let task = prompt("What task needs completed?")
-    //     todos.push(task)
+
     //     for (let i of todos) {
     //         console.log(`${todos.indexOf(i)} - ${i}`)
     //     }
