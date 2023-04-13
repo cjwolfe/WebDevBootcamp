@@ -49,3 +49,8 @@ function returnDay(day) {
     const bigDays = [null, "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     return bigDays[day];
 }
+
+//Square
+function square(number) {
+    return number * number;
+}
