@@ -60,3 +60,8 @@ function doItAgain(func) {
     func();
     func();
 }
+
+
+
+const secondFunction = doItAgain;
+
