@@ -54,3 +54,9 @@ function returnDay(day) {
 function square(number) {
     return number * number;
 }
+
+//Simple higher level function
+function doItAgain(func) {
+    func();
+    func();
+}
