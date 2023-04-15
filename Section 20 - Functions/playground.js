@@ -65,3 +65,8 @@ function doItAgain(func) {
 
 const secondFunction = doItAgain;
 
+function doItAThirdTime(f) {
+    f();
+    f();
+    f();
+}
