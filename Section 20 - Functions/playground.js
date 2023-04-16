@@ -70,3 +70,10 @@ function doItAThirdTime(f) {
     f();
     f();
 }
+
+function makeMultDice(max) {
+    return function (numOfDice) {
+        let dieMin = Math.floor(Math.random() * max);
+        return (numOfDice * dieMin);
+    }
+}
