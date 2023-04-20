@@ -86,9 +86,14 @@ const join = {
     square(x) {
         return x * x;
     }
-
-
-
-
-
 }
+
+const square = {
+    area: function (side) {
+        return side * side;
+    },
+    perimeter: function (side) {
+        return side * 4;
+    }
+}
+
