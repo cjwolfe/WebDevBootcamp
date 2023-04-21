@@ -105,3 +105,15 @@ const cat = {
     fullName: "",
     meow() { console.log(`${this.name} says 'Meow meow meow'`) },
 }
+
+const secondCat = {
+    name: "Mittens",
+    firstName: "Mittens",
+    meow() { console.log(`${this.name} says I want scritches`) }
+
+}
+
+function midnight() {
+    cat.meow();
+    secondCat.meow();
+}
