@@ -97,3 +97,11 @@ const square = {
     }
 }
 
+const cat = {
+    name: "Jareth P. Wifflebottom",
+    firstName: "Jareth",
+    middleName: "Poindexter",
+    lastName: "Wifflebottom",
+    fullName: "",
+    meow() { console.log(`${this.name} says 'Meow meow meow'`) },
+}
