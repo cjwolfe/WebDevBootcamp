@@ -61,3 +61,12 @@ If and If-Else statements today!
 
 Methods and Functions are different, but the same!
 A method is a function that is a property of an object
+
+
+Window object - everything falls under this object
+In a tabbed browser, each tab is represented by its own Window object; the global window seen by JavaScript code running within a given tab 
+always represents the tab in which the code is running. That said, even in a tabbed browser, some properties and methods still apply to the 
+overall window that contains the tab, such as resizeTo() and innerHeight. Generally, anything that can't reasonably pertain to a tab pertains 
+to the window instead.
+https://developer.mozilla.org/en-US/docs/Web/API/Window
+

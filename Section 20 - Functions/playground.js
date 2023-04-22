@@ -117,3 +117,4 @@ function midnight() {
     cat.meow();
     secondCat.meow();
 }
+const dorianGrey = secondCat.meow;
