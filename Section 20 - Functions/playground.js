@@ -118,3 +118,9 @@ function midnight() {
     secondCat.meow();
 }
 const dorianGrey = secondCat.meow;
+
+try {
+    mzlplick.toUpperCase()
+} catch {
+    console.log("Error! Mr. Mzlplick not found!")
+}
