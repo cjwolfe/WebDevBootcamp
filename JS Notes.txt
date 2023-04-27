@@ -70,3 +70,14 @@ overall window that contains the tab, such as resizeTo() and innerHeight. Genera
 to the window instead.
 https://developer.mozilla.org/en-US/docs/Web/API/Window
 
+Array Methods:
+Require you to pass in a function
+1. forEach
+2. map
+3. Arrow
+4. setTimeout
+5. setInterval
+6. filter method
+7. some
+8. every
+9. reduce
