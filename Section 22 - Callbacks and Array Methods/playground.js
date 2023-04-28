@@ -9,3 +9,7 @@ const firstNames = fullNames.map(function (name) {
     return name.first;
 })
 // returns first names only from fullNames array
+
+const lastNames = fullNames.map(function (lName) {
+    return lName.last;
+})
