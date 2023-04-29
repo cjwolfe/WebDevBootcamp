@@ -72,9 +72,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/Window
 
 Array Methods:
 Require you to pass in a function
-1. forEach
-2. map
-3. Arrow
+1. forEach - loops through each on an array, old way to do it before for of loops
+2. map - Loops through each on an array, creates new array with your cool new data
+3. Arrow - syntactically compact alternative to a regular function
 4. setTimeout
 5. setInterval
 6. filter method

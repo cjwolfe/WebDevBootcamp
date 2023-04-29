@@ -13,3 +13,7 @@ const firstNames = fullNames.map(function (name) {
 const lastNames = fullNames.map(function (lName) {
     return lName.last;
 })
+
+const greet = (name) => {
+    return `Hey ${name}!`
+}
