@@ -81,3 +81,5 @@ Require you to pass in a function
 7. some
 8. every
 9. reduce
+
+moving out today - no coding contributions
