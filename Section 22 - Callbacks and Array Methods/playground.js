@@ -17,3 +17,13 @@ const lastNames = fullNames.map(function (lName) {
 const greet = (name) => {
     return `Hey ${name}!`
 }
+
+function validUserNames(usernames) {
+    // your code here
+    return usernames.filter(u => u.length < 10);
+}
+
+//first try on this function!
+function allEvens(array) {
+    return array.every(num => num % 2 === 0);
+}

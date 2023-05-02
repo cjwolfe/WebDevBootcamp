@@ -77,7 +77,7 @@ Require you to pass in a function
 3. Arrow - syntactically compact alternative to a regular function
 4. setTimeout - Pass in a function and a time, and it will delay in running the Functions
 5. setInterval - Pass in a function and a time, and it will repeat a function
-6. filter method
-7. some
-8. every
+6. filter method - Uses boolean logic to filter an array
+7. some - boolean method return t/f, if any amount of the array meets the conditions
+8. every - boolean method return t/f, if all of the array meets the conditions
 9. reduce
