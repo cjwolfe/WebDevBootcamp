@@ -75,11 +75,9 @@ Require you to pass in a function
 1. forEach - loops through each on an array, old way to do it before for of loops
 2. map - Loops through each on an array, creates new array with your cool new data
 3. Arrow - syntactically compact alternative to a regular function
-4. setTimeout
-5. setInterval
+4. setTimeout - Pass in a function and a time, and it will delay in running the Functions
+5. setInterval - Pass in a function and a time, and it will repeat a function
 6. filter method
 7. some
 8. every
 9. reduce
-
-moving out today - no coding contributions
