@@ -80,4 +80,4 @@ Require you to pass in a function
 6. filter method - Uses boolean logic to filter an array
 7. some - boolean method return t/f, if any amount of the array meets the conditions
 8. every - boolean method return t/f, if all of the array meets the conditions
-9. reduce
+9. reduce - reduces the thing
