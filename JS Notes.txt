@@ -81,3 +81,21 @@ Require you to pass in a function
 7. some - boolean method return t/f, if any amount of the array meets the conditions
 8. every - boolean method return t/f, if all of the array meets the conditions
 9. reduce - reduces the thing - Accumulator and Current Value. Useful for summing an array
+
+Newer Features
+Default Params
+ - Like defaults for functions in excel
+Spread in function calls
+
+Spread in Array literals
+
+Spread with Objects
+
+Rest Params
+
+Destructuring Arrays
+
+Destructuring Objects
+
+Destructuring Params
+
