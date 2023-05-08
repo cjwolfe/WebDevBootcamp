@@ -3,11 +3,13 @@ Javascript has only one number type (no ints, floats, etc)
 Basic Math
 +, -, /, *, %
 
-** Exponentiateion - Raise to some power
-2^4 is 2**4
+** Exponentiation - Raise to some power
+2^4 is ``2**4``
 
 % Modulo
-9 % 2 = 1
+
+``9 % 2 = 1``
+
 Common for determining if a number is even or odd
 
 PEMDAS
@@ -27,7 +29,8 @@ Variables are not automatically updated in JS
 let myLuckyNumber = 37;
 
 += is a change to a variable 
-score += 5 will add 5 to the score
+
+``score += 5`` will add 5 to the score
 
 const - same as let, but cannot be changed
 
@@ -44,33 +47,29 @@ Strings are indexed
 
 .length method gives you the length of a string in human (not computer) terms
 
-methods
+## Methods
 
 thing.method() will do an action of the method
-
+``` js
 let msg = "hello world       ";
 // Output = "hello world      "
 let bigMsg = msg.trim().toUpperCase();
 // Output = "HELLO WORLD"
-
+```
 (you can chain together multiple methods in this way)
-
-Finished learning about inline string methods and literals and such. Null and Undefined as well. Moving on to section 16!
-Javascript decisionmaking today - logic and boolean stuff!
-If and If-Else statements today!
 
 Methods and Functions are different, but the same!
 A method is a function that is a property of an object
 
 
-Window object - everything falls under this object
-In a tabbed browser, each tab is represented by its own Window object; the global window seen by JavaScript code running within a given tab 
+### Window object 
+Everything falls under this object. In a tabbed browser, each tab is represented by its own Window object; the global window seen by JavaScript code running within a given tab 
 always represents the tab in which the code is running. That said, even in a tabbed browser, some properties and methods still apply to the 
 overall window that contains the tab, such as resizeTo() and innerHeight. Generally, anything that can't reasonably pertain to a tab pertains 
 to the window instead.
 https://developer.mozilla.org/en-US/docs/Web/API/Window
 
-Array Methods:
+## Array Methods:
 Require you to pass in a function
 1. forEach - loops through each on an array, old way to do it before for of loops
 2. map - Loops through each on an array, creates new array with your cool new data
@@ -83,19 +82,25 @@ Require you to pass in a function
 9. reduce - reduces the thing - Accumulator and Current Value. Useful for summing an array
 
 Newer Features
-Default Params
- - Like defaults for functions in excel
-Spread in function calls
+### Default Params
+- Like defaults for functions in excel
+### Spread in function calls
+- allows an iterable such as an array to be *expanded* in places where zero or more arguments or elements are expected
+``` js
+let nums = [1,2,3,4,5]
+Math.max(...nums)
+```
+Makes an array iterable when a thing expects it not to be, as a function call
+### Spread in Array literals
+Super useful to combine arrays
 
-Spread in Array literals
+### Spread with Objects
 
-Spread with Objects
+### Rest Params
 
-Rest Params
+### Destructuring Arrays
 
-Destructuring Arrays
+### Destructuring Objects
 
-Destructuring Objects
-
-Destructuring Params
+### Destructuring Params
 
