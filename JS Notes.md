@@ -95,9 +95,9 @@ Makes an array iterable when a thing expects it not to be, as a function call
 Super useful to combine arrays
 
 ### Spread with Objects
-
+Useful to combine things. For example, you would create a new user with form data and assign them admin priveleges based on other information, assign them a user number, etc.
 ### Rest Params
-
+Allows for capturing an unknown number of parameters... collect the rest of the values
 ### Destructuring Arrays
 
 ### Destructuring Objects
