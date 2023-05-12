@@ -99,9 +99,33 @@ Useful to combine things. For example, you would create a new user with form dat
 ### Rest Params
 Allows for capturing an unknown number of parameters... collect the rest of the values
 ### Destructuring Arrays
-
+Allows for extraction of some elements into standalone variables
+``` js
+const raceResults = ["mike", "tina", "jim", "rob", "daren"];
+const [gold, silver, bronze, ...everyoneElse] = raceResults;
+```
+- Based on position
 ### Destructuring Objects
+More common than Destructuring an Array
+- not necessarily about order
+``` js
+const runner = {
+    first: "usain",
+    last: "bolt",
+    country: "jamaica"
 
+}
+const {first,last,country} = runner;
+// "make me three variables called first, last, and country
+// from the existing variable runner"
+```
+You can also do the above while renaming everything
+``` js
+const {first:firstName, last:lastName, country:origin} = runner;
+```
+anything that doesn't exist as a variable, starts as undefined, but can be expressed as 
+``` js
+const {bio = "n/a"} = runner;
+```
 ### Destructuring Params
 
-Missed 05 10 2023 :/
