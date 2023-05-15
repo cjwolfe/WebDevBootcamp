@@ -130,3 +130,4 @@ const {bio = "n/a"} = runner;
 ### Destructuring Params
 
 ## The world of the DOM
+The dom is the Document Object Model.
