@@ -129,5 +129,14 @@ const {bio = "n/a"} = runner;
 ```
 ### Destructuring Params
 
+``` js
+// function fullName(user){
+//     return `${user.firstName} ${user.lastName}`}
+// }
+function fullName(firstName,lastName){
+    return `${firstName} ${lastName}`
+}
+
+```
 ## The world of the DOM
 The dom is the Document Object Model.
