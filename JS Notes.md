@@ -140,3 +140,4 @@ function fullName(firstName,lastName){
 ```
 ## The world of the DOM
 The dom is the Document Object Model.
+Video 1: Introducing the DOM
