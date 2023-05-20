@@ -142,3 +142,5 @@ function fullName(firstName,lastName){
 The dom is the Document Object Model.
 Video 1: Introducing the DOM
 Video 2: More Dom, More mom
+Video 3: GetElementByID
+### GetElementByID
