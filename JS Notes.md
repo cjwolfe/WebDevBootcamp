@@ -144,3 +144,14 @@ Video 1: Introducing the DOM
 Video 2: More Dom, More mom
 Video 3: GetElementByID
 ### GetElementByID
+- Selecting
+    - getElementById
+    - getElementsByTagName
+        - returns HTML Collection - which is not an array, but can be looped over.
+    - getElementsByClassName
+        - returns HTML collection
+
+- Manipulating
+    - loop over html collections
+
+### Query Selector
