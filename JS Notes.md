@@ -151,7 +151,24 @@ Video 3: GetElementByID
     - getElementsByClassName
         - returns HTML collection
 
-- Manipulating
-    - loop over html collections
 
 ### Query Selector
+- Manipulating
+    - loop over html collections
+``` js
+document.querySelector("#banner");
+//Selects banner tag, first one only
+document.querySelector(".square");
+//Selects square class, first one only
+document.querySelector("img:nth-of-type(2)");
+//Selects images, 2nd one (nth of type)
+
+document.querySelectorAll(".square");
+//Selects square class, all that match
+
+```
+
+querySelector only selects the first one
+querySelectorAll selects all that match
+
+CSS selection on the inside.
