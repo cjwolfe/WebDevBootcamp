@@ -172,3 +172,9 @@ querySelector only selects the first one
 querySelectorAll selects all that match
 
 CSS selection on the inside.
+
+### Properties and Methods
+- Prioritize knowing how to find that info on MDN rather than strict memorization
+- Focus on concepts, and accessing information *when needed*.
+
+Changing CSS - everything is camelCase
