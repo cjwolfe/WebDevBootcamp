@@ -180,3 +180,5 @@ CSS selection on the inside.
 Changing CSS - everything is camelCase
 
 Rainbow Text Exercise - 2023 05 26
+
+I need to go back and review some of the vidyas
