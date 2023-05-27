@@ -178,3 +178,5 @@ CSS selection on the inside.
 - Focus on concepts, and accessing information *when needed*.
 
 Changing CSS - everything is camelCase
+
+Rainbow Text Exercise - 2023 05 26
