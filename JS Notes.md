@@ -178,3 +178,5 @@ CSS selection on the inside.
 - Focus on concepts, and accessing information *when needed*.
 
 Changing CSS - everything is camelCase
+
+We will return after workout
