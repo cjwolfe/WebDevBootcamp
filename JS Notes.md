@@ -181,3 +181,4 @@ Changing CSS - everything is camelCase
 
 We will return after workout
 We returned after workout.
+Today is app state thing, will end up watching a video but no code today.
