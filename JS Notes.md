@@ -185,3 +185,4 @@ Today is app state thing, will end up watching a video but no code today.
 Today is a travel day
 Today is a rest day
 Yeah we're doing the thing
+Doing more things.
