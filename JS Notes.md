@@ -188,3 +188,4 @@ Yeah we're doing the thing
 Doing more things.
 Learned about Class Siblings
 Did more things.
+Learned about Append and AppendChild
