@@ -201,3 +201,5 @@ Position
 Before or after + begin or end
 element
 the element to be inserted into the tree
+
+## Element.removeChild()
