@@ -190,3 +190,14 @@ Learned about Class Siblings
 Did more things.
 Learned about Append and AppendChild
 Day off for movies
+
+
+## Element.insertAdjacentElement()
+You can add an element before or after an element
+https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement
+
+### Parameters
+Position
+Before or after + begin or end
+element
+the element to be inserted into the tree
