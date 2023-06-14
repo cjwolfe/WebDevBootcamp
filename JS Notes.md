@@ -203,3 +203,6 @@ element
 the element to be inserted into the tree
 
 ## Element.removeChild()
+old way: element.selectParent.removeChild()
+new way: element.remove()
+It's just easier this way.
