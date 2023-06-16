@@ -206,3 +206,5 @@ the element to be inserted into the tree
 old way: element.selectParent.removeChild()
 new way: element.remove()
 It's just easier this way.
+
+Watched Pokemon demo, will try it tomorrow.
