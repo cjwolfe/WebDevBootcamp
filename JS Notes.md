@@ -210,4 +210,4 @@ It's just easier this way.
 Watched Pokemon demo, will try it tomorrow.
 
 ## DOM Events
-1. Intro
+Onclick, onHover, etc
