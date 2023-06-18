@@ -179,18 +179,6 @@ CSS selection on the inside.
 
 Changing CSS - everything is camelCase
 
-We will return after workout
-We returned after workout.
-Today is app state thing, will end up watching a video but no code today.
-Today is a travel day
-Today is a rest day
-Yeah we're doing the thing
-Doing more things.
-Learned about Class Siblings
-Did more things.
-Learned about Append and AppendChild
-Day off for movies
-
 
 ## Element.insertAdjacentElement()
 You can add an element before or after an element
