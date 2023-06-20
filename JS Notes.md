@@ -200,3 +200,8 @@ Watched Pokemon demo, will try it tomorrow.
 ## DOM Events
 Onclick, onHover, etc
 ### Inline Events
+onclick attribute
+
+
+
+a lot of other on-something attributes
