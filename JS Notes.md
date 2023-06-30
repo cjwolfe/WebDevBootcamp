@@ -201,9 +201,3 @@ Watched Pokemon demo, will try it tomorrow.
 Onclick, onHover, etc
 ### Inline Events
 onclick attribute
-
-
-
-a lot of other on-something attributes
-
-Missed yesterday due to doing laundry
