@@ -202,4 +202,4 @@ Onclick, onHover, etc
 ### Inline Events
 onclick attribute
 Rather than making a lot of duplicated code,  you could make a function which will do the work for you
-## 
+## Beach day today
