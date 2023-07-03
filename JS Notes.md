@@ -203,3 +203,4 @@ Onclick, onHover, etc
 onclick attribute
 Rather than making a lot of duplicated code,  you could make a function which will do the work for you
 ## Beach day today
+### Beach Day 2: Electric Boogaloo
